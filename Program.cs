@@ -31,6 +31,9 @@ namespace TTBox
                 case "copen":
                     Application.Run(new CopenForm());
                     break;
+                case "pathlink":
+                    Application.Run(new PathLinkForm());
+                    break;
                 default:
                     DispError();
                     break;

@@ -55,6 +55,12 @@
     <Compile Include="CopenForm.Designer.cs">
       <DependentUpon>CopenForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PathLinkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PathLinkForm.Designer.cs">
+      <DependentUpon>PathLinkForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BKForm.resx">
@@ -62,6 +68,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CopenForm.resx">
       <DependentUpon>CopenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PathLinkForm.resx">
+      <DependentUpon>PathLinkForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
