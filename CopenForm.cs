@@ -30,7 +30,14 @@ namespace TTBox
                 var m = angleBracketPattern.Match(line);
                 var cmd = (m.Success) ? m.Groups[1].Value : line;
 
-                Process.Start(cmd);
+                try
+                {
+                    Process.Start(cmd);
+                }
+                catch (Win32Exception)
+                {
+                    // ignore...
+                }
             }
             Environment.Exit(0);
         }
