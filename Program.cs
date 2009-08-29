@@ -28,6 +28,9 @@ namespace TTBox
                 case "bk":
                     Application.Run(new BKForm());
                     break;
+                case "copen":
+                    Application.Run(new CopenForm());
+                    break;
                 default:
                     DispError();
                     break;

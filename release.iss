@@ -7,12 +7,12 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{6AB60E1D-4E05-4E12-88A0-F6A57037BCAB}
 AppName=TTBox for Windows
-AppVerName=TTBox for Windows 0.1.0
+AppVerName=TTBox for Windows 0.2.0
 DefaultDirName={pf}\ttbox4win
 DefaultGroupName=ttbox4win
 DisableProgramGroupPage=yes
 OutputDir=release
-OutputBaseFilename=ttbox4win_setup-0.1.0
+OutputBaseFilename=ttbox4win_setup-0.2.0
 Compression=lzma
 SolidCompression=yes
 
@@ -28,6 +28,7 @@ Source: "bin\Release\ttbox.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: {sendto}\ttbox bk; Filename: {app}\ttbox.exe; Parameters: bk
+Name: {app}\ttbox copen; Filename: {app}\ttbox.exe; Parameters: copen
 
 
 
